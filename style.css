@@ -1,0 +1,42 @@
+#input{
+  width: 30%;
+  margin: 20px auto 20px auto;
+  text-align: center;
+  font-size: 20px;
+}
+.container{
+  margin-top: 12%;
+  text-align: center;
+  box-shadow: 4px 4px 4px 4px #000;
+  padding: 0;
+
+
+}
+body{
+  background-image: url("https://image.shutterstock.com/image-illustration/question-mark-seamless-pattern-background-600w-1173685564.jpg");
+  -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+.heading{
+  color: #5fdde5;
+  font-size: 80px;
+  font-weight: bold;
+    text-shadow: 5px 5px #0e9aa7;
+    /* margin-bottom: 30px; */
+}
+p{
+  font-size: 60px;
+  font-weight: bold;
+  color:#ffb367;
+  text-shadow: 5px 5px  #ca5116;
+}
+#input:focus {
+  font-size: 20px;
+  font-weight: bolder;
+  background-color: #fff;
+  color: #f79071;
+  border: solid #fd5e53;
+  outline: none;
+}
